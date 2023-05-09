@@ -125,7 +125,7 @@ async function getIndexData(setUserData, date, minDate, setUserSuccess) {
           allData = { ...allData, [i]: snap }
           setUserData(allData)
         }
-      });
+      });       
   });
 
 
